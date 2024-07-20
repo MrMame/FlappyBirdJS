@@ -1,0 +1,45 @@
+
+	#GameArea{
+        position:relative;
+        overflow:hidden;
+        }
+        
+        
+        .bird{
+        background-color: yellow;
+        position:absolute;
+        }
+
+        .wall{
+        background-color:green; 
+        }
+        
+        .top{
+        position:absolute;
+        }
+        .bottom {
+        position:absolute;
+        bottom:0px;}
+        
+        #w1t{
+        height:100px;
+        left:50px;}
+        #w1b{
+        height:30px;
+        left:50px;}
+        
+        #w2t{
+        height:80px;
+        left:100px;}
+        #w2b{
+        height:60px;
+        left:100px;}
+        
+        #w3t{
+        height:60px;
+        left:150px;}
+        #w3b{
+        height:100px;
+        left:150px;}
+        
+        

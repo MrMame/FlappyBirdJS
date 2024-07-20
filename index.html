@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/page.css" />
+		<link rel = "stylesheet" type = "text/css" href = "css/game.css" />
+	
+		<script type="text/javascript" src="jScripts/engine.js"></script>
+		<script type="text/javascript" src="jScripts/world.js"></script>
+		<script type="text/javascript" src="jScripts/wall.js"></script>
+		<script type="text/javascript" src="jScripts/bird.js"></script>
+		<script type="text/javascript" src="jScripts/game.js"></script>
+	</head>
+
+	<body>
+
+		<h1>Javagame</h1>
+		<p>Welcome to my Javagame</p>
+
+		<p><button onclick="game_start(1)">Start World 1</button></p> 
+		<p><button onclick="game_start(2)">Start World 2</button></p> 
+		<p><button onclick="game_start(3)">Start World 3</button></p> 
+		<p><button onclick="game_start_objV2()">Start World with Objects v2</button></p> 
+		<p><button onclick="game_pause()">Pause</button></p> 
+
+		<div id="GameArea" style="background-color:blue;height:300px;width:600px" 
+			onclick="eventHandler_GameAreOnClick()"
+			onmousedown="eventHandler_gameAreOnMouseDown()"
+			>	
+			
+		</div>
+
+
+
+	</body>
+
+<script>
+	function eventHandler_GameAreOnClick(){
+		//game_eventListener_GameAreaMouseClick();
+	}
+	function eventHandler_gameAreOnMouseDown(){
+		game_eventListener_GameAreaMouseDown();
+	}
+
+</script>
+
+
+</html> 
