@@ -1,10 +1,6 @@
-namespace fb.game{
+namespace fb.game.engine{
 
-    interface IEngine{
-        start():void;
-        pause():void;
-        resume():void;
-    }
+  
 
     class Engine implements IEngine{
 
